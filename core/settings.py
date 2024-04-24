@@ -47,8 +47,8 @@ TEMPLATES = [
     },
 ]
 
+ASGI_APPLICATION = 'core.asgi.application'
 WSGI_APPLICATION = 'core.wsgi.application'
-ASGI_APPLICATION = 'django_channels_chat.asgi.application'
 
 DATABASES = {
     'default': {
